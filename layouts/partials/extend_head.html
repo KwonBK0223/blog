@@ -9,3 +9,45 @@
     {left: '\\[', right: '\\]', display: true}
   ], throwOnError: false});"></script>
 {{ end }}
+
+{{ if .Site.Params.goatcounter }}
+<script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var code = {{ .Site.Params.goatcounter }};
+  var isEn = document.documentElement.lang.indexOf('en') === 0;
+  function fmt(c) { return c.replace(/[\s ]/g, ','); }
+
+  // Per-post view count (post pages only)
+  if (/\/posts\/.+/.test(location.pathname)) {
+    var meta = document.querySelector('.post-single .post-meta');
+    if (meta) {
+      fetch('https://' + code + '.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d) return;
+          var s = document.createElement('span');
+          s.textContent = ' · 👁 ' + fmt(d.count) + (isEn ? ' views' : '회');
+          meta.appendChild(s);
+        }).catch(function () {});
+    }
+  }
+
+  // Total site views (home page only)
+  var home = document.querySelector('.home-info .entry-content');
+  if (home && (location.pathname === '/blog/' || location.pathname === '/blog/en/')) {
+    fetch('https://' + code + '.goatcounter.com/counter/TOTAL.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d) return;
+        var p = document.createElement('p');
+        p.style.opacity = '0.7';
+        p.style.fontSize = '0.9em';
+        p.textContent = '👁 ' + (isEn ? 'Total views: ' : '총 조회수: ') + fmt(d.count);
+        home.appendChild(p);
+      }).catch(function () {});
+  }
+});
+</script>
+{{ end }}
