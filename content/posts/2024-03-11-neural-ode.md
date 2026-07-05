@@ -3,7 +3,7 @@ title: "Neural Ordinary Differential Equations"
 date: 2024-03-11
 tags: ["Neural ODE", "Continuous-depth Models", "Normalizing Flow"]
 categories: ["Paper Review"]
-series: ["Classic Papers"]
+series: ["AI Algorithms"]
 math: true
 summary: "이산적인 hidden layer의 시퀀스 대신 hidden state의 도함수를 신경망으로 매개변수화하고 ODE solver로 출력을 계산하는 continuous-depth 모델과, 상수 메모리로 역전파를 가능하게 하는 adjoint sensitivity method를 리뷰한다."
 ---

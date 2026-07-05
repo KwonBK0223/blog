@@ -3,7 +3,7 @@ title: "Attention Is All You Need"
 date: 2024-05-03
 tags: ["Transformer", "Attention", "NLP", "Deep Learning"]
 categories: ["Paper Review"]
-series: ["Classic Papers"]
+series: ["AI Algorithms"]
 math: true
 summary: "순환·합성곱 없이 오직 어텐션만으로 시퀀스를 처리하는 Transformer를 제안한 논문으로, 병렬화와 장거리 의존성 학습을 동시에 달성하며 기계 번역에서 새로운 SOTA를 세웠다."
 ---

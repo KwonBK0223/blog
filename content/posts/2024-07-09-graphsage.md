@@ -3,7 +3,7 @@ title: "Inductive Representation Learning on Large Graphs (GraphSAGE)"
 date: 2024-07-09
 tags: ["GNN", "GraphSAGE", "Node Embedding", "Inductive Learning"]
 categories: ["Paper Review"]
-series: ["Classic Papers"]
+series: ["AI Algorithms"]
 math: true
 summary: "노드별 임베딩을 직접 학습하는 대신 이웃의 feature를 샘플링·집계하는 함수를 학습하여, 학습 중 보지 못한 노드와 그래프에도 임베딩을 일반화하는 inductive 프레임워크 GraphSAGE를 리뷰한다."
 ---
