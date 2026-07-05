@@ -34,20 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  // Total site views (home page only)
-  var home = document.querySelector('.home-info .entry-content');
-  if (home && (location.pathname === '/blog/' || location.pathname === '/blog/en/')) {
-    fetch('https://' + code + '.goatcounter.com/counter/TOTAL.json')
-      .then(function (r) { return r.json().catch(function () { return null; }); })
-      .then(function (d) {
-        if (!d || d.count === undefined) return;
-        var p = document.createElement('p');
-        p.style.opacity = '0.7';
-        p.style.fontSize = '0.9em';
-        p.textContent = '👁 ' + (isEn ? 'Total views: ' : '총 조회수: ') + fmt(d.count);
-        home.appendChild(p);
-      }).catch(function () {});
-  }
 });
 </script>
 {{ end }}
