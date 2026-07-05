@@ -1,8 +1,8 @@
 baseURL: "https://kwonbk0223.github.io/blog/"
 title: "BK's Paper Review"
 theme: "PaperMod"
-languageCode: "ko-kr"
 defaultContentLanguage: "ko"
+defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 pagination:
   pagerSize: 10
@@ -25,35 +25,75 @@ params:
   ShowToc: true
   TocOpen: false
   math: true
-  homeInfoParams:
-    Title: "BK's Paper Review"
-    Content: |
-      AI 논문 리뷰를 기록하는 공간입니다.
+  goatcounter: "house9895"
 
-      **[Hierarchical Federated Learning](series/hierarchical-federated-learning/)** · **[Partial & Layer-wise Federated Learning](series/partial--layer-wise-federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[AI Algorithms](series/ai-algorithms/)**
+languages:
+  ko:
+    languageName: "한국어"
+    languageCode: "ko-kr"
+    weight: 1
+    params:
+      homeInfoParams:
+        Title: "BK's Paper Review"
+        Content: |
+          AI 논문 리뷰를 기록하는 공간입니다.
 
-menu:
-  main:
-    - identifier: archives
-      name: Archive
-      url: /archives/
-      weight: 10
-    - identifier: series
-      name: Series
-      url: /series/
-      weight: 15
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 30
-    - identifier: personal
-      name: Personal Site ↗
-      url: "https://kwonbk0223.github.io/"
-      weight: 40
+          **[Hierarchical Federated Learning](series/hierarchical-federated-learning/)** · **[Partial & Layer-wise Federated Learning](series/partial--layer-wise-federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[AI Algorithms](series/ai-algorithms/)**
+    menu:
+      main:
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 10
+        - identifier: series
+          name: Series
+          url: /series/
+          weight: 15
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
+        - identifier: personal
+          name: Personal Site ↗
+          url: "https://kwonbk0223.github.io/"
+          weight: 40
+  en:
+    languageName: "English"
+    languageCode: "en-us"
+    weight: 2
+    params:
+      homeInfoParams:
+        Title: "BK's Paper Review"
+        Content: |
+          A space for recording AI paper reviews.
+
+          **[Hierarchical Federated Learning](series/hierarchical-federated-learning/)** · **[Partial & Layer-wise Federated Learning](series/partial--layer-wise-federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[AI Algorithms](series/ai-algorithms/)**
+    menu:
+      main:
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 10
+        - identifier: series
+          name: Series
+          url: /series/
+          weight: 15
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
+        - identifier: personal
+          name: Personal Site ↗
+          url: "https://kwonbk0223.github.io/"
+          weight: 40
 
 taxonomies:
   category: categories
