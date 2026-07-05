@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var meta = document.querySelector('.post-single .post-meta');
     if (meta) {
       fetch('https://' + code + '.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (r) { return r.json().catch(function () { return null; }); })
         .then(function (d) {
-          if (!d) return;
+          if (!d || d.count === undefined) return;
           var s = document.createElement('span');
           s.textContent = ' · 👁 ' + fmt(d.count) + (isEn ? ' views' : '회');
           meta.appendChild(s);
@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var home = document.querySelector('.home-info .entry-content');
   if (home && (location.pathname === '/blog/' || location.pathname === '/blog/en/')) {
     fetch('https://' + code + '.goatcounter.com/counter/TOTAL.json')
-      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (r) { return r.json().catch(function () { return null; }); })
       .then(function (d) {
-        if (!d) return;
+        if (!d || d.count === undefined) return;
         var p = document.createElement('p');
         p.style.opacity = '0.7';
         p.style.fontSize = '0.9em';
