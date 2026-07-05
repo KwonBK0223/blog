@@ -30,7 +30,7 @@ params:
     Content: |
       AI 논문 리뷰를 기록하는 공간입니다.
 
-      **[HFL 기반 차량 침입탐지](series/hfl-기반-차량-침입탐지/)** · **[Partial & Layer-wise FL](series/partial-layer-wise-fl/)** · **[FL Applications](series/fl-applications/)** · **[Classic Papers](series/classic-papers/)**
+      **[HFL 기반 차량 침입탐지](series/hfl-기반-차량-침입탐지/)** · **[Partial & Layer-wise FL](series/partial--layer-wise-fl/)** · **[FL Applications](series/fl-applications/)** · **[Classic Papers](series/classic-papers/)**
 
 menu:
   main:
