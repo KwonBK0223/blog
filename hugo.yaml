@@ -27,7 +27,10 @@ params:
   math: true
   homeInfoParams:
     Title: "BK's Paper Review"
-    Content: "AI 논문 리뷰를 기록하는 공간입니다. Federated Learning · GNN · Time Series · Medical AI"
+    Content: |
+      AI 논문 리뷰를 기록하는 공간입니다.
+
+      **[HFL 기반 차량 침입탐지](series/hfl-기반-차량-침입탐지/)** · **[Partial & Layer-wise FL](series/partial-layer-wise-fl/)** · **[FL Applications](series/fl-applications/)** · **[Classic Papers](series/classic-papers/)**
 
 menu:
   main:
@@ -35,6 +38,10 @@ menu:
       name: Archive
       url: /archives/
       weight: 10
+    - identifier: series
+      name: Series
+      url: /series/
+      weight: 15
     - identifier: tags
       name: Tags
       url: /tags/
@@ -43,6 +50,11 @@ menu:
       name: Search
       url: /search/
       weight: 30
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 
 markup:
   goldmark:
