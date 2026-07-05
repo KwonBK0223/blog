@@ -3,7 +3,7 @@ title: "Adaptive Multi-Model Hierarchical Federated Learning for Robust IoT Intr
 date: 2026-06-19
 tags: ["Federated Learning", "Hierarchical FL", "Intrusion Detection", "IoT", "Clustering"]
 categories: ["Paper Review"]
-series: ["HFL 기반 차량 침입탐지"]
+series: ["Hierarchical Federated Learning"]
 math: true
 summary: "클라이언트–엣지–클라우드 3계층에서 유사도 기반 클러스터링, 다중 모델 메타 집계, 클라이언트 측 동적 모델 선택을 결합한 적응형 다중 모델 HFL(A-MM-HFL) 프레임워크다."
 ---

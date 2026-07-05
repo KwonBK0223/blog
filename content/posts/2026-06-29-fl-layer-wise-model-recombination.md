@@ -3,7 +3,7 @@ title: "Is Aggregation the Only Choice? Federated Learning via Layer-wise Model 
 date: 2026-06-29
 tags: ["Federated Learning", "Model Recombination", "Non-IID", "KDD"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise FL"]
+series: ["Partial & Layer-wise Federated Learning"]
 math: true
 summary: "FedAvg의 단순 평균 대신 로컬 모델들을 레이어 단위로 셔플·재조합해 클라이언트에 배포하는 FedMR을 제안하여, non-IID 환경에서 flat minima로의 탈출과 지식 공유를 동시에 달성한다."
 ---
