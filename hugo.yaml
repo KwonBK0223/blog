@@ -1,0 +1,59 @@
+baseURL: "https://kwonbk0223.github.io/blog/"
+title: "BK's Paper Review"
+theme: "PaperMod"
+languageCode: "ko-kr"
+defaultContentLanguage: "ko"
+enableRobotsTXT: true
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+
+outputs:
+  home: [HTML, RSS, JSON]
+
+params:
+  env: production
+  description: "AI 논문 리뷰 블로그"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  math: true
+  homeInfoParams:
+    Title: "BK's Paper Review"
+    Content: "AI 논문 리뷰를 기록하는 공간입니다. Federated Learning · GNN · Time Series · Medical AI"
+
+menu:
+  main:
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+  highlight:
+    noClasses: false
+    style: monokai
