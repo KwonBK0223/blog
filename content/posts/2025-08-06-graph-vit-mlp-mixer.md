@@ -3,7 +3,7 @@ title: "A Generalization of ViT/MLP-Mixer to Graphs"
 date: 2025-08-06
 tags: [GNN, MLP-Mixer, Graph Transformer, ICML]
 categories: ["Paper Review"]
-series: ["Classic Papers"]
+series: ["AI Algorithms"]
 math: true
 summary: "METIS 그래프 분할로 '그래프 패치'를 정의하고 ViT/MLP-Mixer 문법을 그래프에 이식하여, 선형 복잡도로 long-range dependency와 3-WL급 표현력을 동시에 잡은 Graph ViT/MLP-Mixer를 리뷰한다."
 ---
