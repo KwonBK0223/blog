@@ -3,7 +3,7 @@ title: "Layer-Wise Adaptive Model Aggregation for Scalable Federated Learning"
 date: 2026-06-28
 tags: ["Federated Learning", "Layer-wise Aggregation", "Communication Efficiency"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "레이어마다 client 간 model discrepancy가 다르게 증가한다는 관찰에 기반해, 레이어별로 aggregation 주기를 적응적으로 조절하는 FedLAMA를 제안한 AAAI 2023 논문이다."
 ---

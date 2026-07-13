@@ -3,7 +3,7 @@ title: "Federated Block Coordinate Descent Scheme for Learning Global and Person
 date: 2026-06-27
 tags: ["Federated Learning", "Block Coordinate Descent", "Personalization", "Asynchronous FL"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "A theoretical paper showing that the FL objective can be solved via block coordinate descent, proposing FedBCD, which achieves personalized models and asynchronous cloud updates simultaneously over a hierarchical communication architecture."
 ---

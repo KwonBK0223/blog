@@ -3,7 +3,7 @@ title: "Layer-Wise Adaptive Model Aggregation for Scalable Federated Learning"
 date: 2026-06-28
 tags: ["Federated Learning", "Layer-wise Aggregation", "Communication Efficiency"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "An AAAI 2023 paper proposing FedLAMA, which adaptively adjusts the aggregation interval per layer, based on the observation that inter-client model discrepancy grows at different rates across layers."
 ---

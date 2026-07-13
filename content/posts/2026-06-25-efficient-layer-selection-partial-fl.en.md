@@ -3,7 +3,7 @@ title: "An Efficient Layer Selection Algorithm for Partial Federated Learning"
 date: 2026-06-25
 tags: ["Federated Learning", "Partial FL", "Layer Selection", "V2V"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "Proposes Partial Federated Learning for vehicular environments, exchanging only the most important layers over V2V links instead of the full model, combining Kalman-filter-based contact time prediction with CKA-similarity-based aggregation."
 ---

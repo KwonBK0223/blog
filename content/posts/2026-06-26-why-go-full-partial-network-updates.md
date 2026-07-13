@@ -3,7 +3,7 @@ title: "Why Go Full? Elevating Federated Learning Through Partial Network Update
 date: 2026-06-26
 tags: ["Federated Learning", "Partial FL", "Layer Mismatch", "NeurIPS"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "Full-network aggregation이 유발하는 layer mismatch 문제를 규명하고, 라운드마다 일부 레이어만 순차적으로 학습·집계하는 FedPart로 수렴 속도와 성능을 동시에 개선한 NeurIPS 2024 논문이다."
 ---

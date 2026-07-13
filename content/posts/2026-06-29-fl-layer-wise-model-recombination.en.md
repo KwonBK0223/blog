@@ -3,7 +3,7 @@ title: "Is Aggregation the Only Choice? Federated Learning via Layer-wise Model 
 date: 2026-06-29
 tags: ["Federated Learning", "Model Recombination", "Non-IID", "KDD"]
 categories: ["Paper Review"]
-series: ["Partial & Layer-wise Federated Learning"]
+series: ["Federated Learning"]
 math: true
 summary: "Proposes FedMR, which replaces FedAvg's simple averaging by shuffling and recombining local models layer by layer before dispatching them to clients, achieving both escape toward flat minima and knowledge sharing in non-IID settings."
 ---
