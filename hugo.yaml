@@ -38,7 +38,7 @@ languages:
         Content: |
           AI 논문 리뷰를 기록하는 공간입니다.
 
-          **[Hierarchical Federated Learning](series/hierarchical-federated-learning/)** · **[Partial & Layer-wise Federated Learning](series/partial--layer-wise-federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[AI Algorithms](series/ai-algorithms/)**
+          **[Federated Learning](series/federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[Medical AI](series/medical-ai/)** · **[AI Algorithms](series/ai-algorithms/)** · **[AI Applications](series/ai-applications/)** · **[Security](series/security/)**
     menu:
       main:
         - identifier: archives
@@ -71,7 +71,7 @@ languages:
         Content: |
           A space for recording AI paper reviews.
 
-          **[Hierarchical Federated Learning](series/hierarchical-federated-learning/)** · **[Partial & Layer-wise Federated Learning](series/partial--layer-wise-federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[AI Algorithms](series/ai-algorithms/)**
+          **[Federated Learning](series/federated-learning/)** · **[Federated Learning Applications](series/federated-learning-applications/)** · **[Medical AI](series/medical-ai/)** · **[AI Algorithms](series/ai-algorithms/)** · **[AI Applications](series/ai-applications/)** · **[Security](series/security/)**
     menu:
       main:
         - identifier: archives
