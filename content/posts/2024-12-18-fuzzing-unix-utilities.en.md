@@ -3,7 +3,7 @@ title: "An Empirical Study of the Reliability of UNIX Utilities"
 date: 2024-12-18
 tags: [Fuzzing, Software Testing, Security]
 categories: ["Paper Review"]
-series: ["AI Algorithms"]
+series: ["Security"]
 math: true
 summary: "A review of the classic 1990 paper that crashed 25–33% of UNIX utilities with nothing but random input, coining both the term and the methodology of 'fuzzing'."
 ---

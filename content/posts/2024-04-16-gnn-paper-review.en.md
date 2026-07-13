@@ -3,7 +3,7 @@ title: "HGHAN: Hacker Group Identification Based on Heterogeneous Graph Attentio
 date: 2024-04-16
 tags: ["GNN", "Heterogeneous Graph", "Attention", "Cyber Security"]
 categories: ["Paper Review"]
-series: ["AI Algorithms"]
+series: ["AI Applications"]
 math: true
 summary: "A review of HGHAN, a heterogeneous graph neural network that builds a Web Attack Heterogeneous Information Network (WAHIN) and combines LSTM attribute encoding, Metapath2Vec structural encoding, and HAN attention to identify hacker groups."
 ---

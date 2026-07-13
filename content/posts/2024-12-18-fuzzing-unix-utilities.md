@@ -3,7 +3,7 @@ title: "An Empirical Study of the Reliability of UNIX Utilities"
 date: 2024-12-18
 tags: [Fuzzing, Software Testing, Security]
 categories: ["Paper Review"]
-series: ["AI Algorithms"]
+series: ["Security"]
 math: true
 summary: "무작위 입력만으로 UNIX 유틸리티의 25~33%를 크래시시킨, 'fuzzing'이라는 용어와 방법론의 기원이 된 1990년 고전 논문을 리뷰한다."
 ---
