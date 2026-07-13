@@ -3,7 +3,7 @@ title: "Hierarchical Federated Learning-Based Intrusion Detection for In-Vehicle
 date: 2026-06-15
 tags: ["Federated Learning", "Hierarchical FL", "Intrusion Detection", "Vehicular Networks"]
 categories: ["Paper Review"]
-series: ["Hierarchical Federated Learning"]
+series: ["Federated Learning Applications"]
 math: true
 summary: "The first paper to apply hierarchical federated learning (HFL) to in-vehicle network (CAN) intrusion detection, using multiple edge aggregators to mitigate the single point of failure and improve scalability."
 ---

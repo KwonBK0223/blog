@@ -3,7 +3,7 @@ title: "Secure Hierarchical Federated Learning in Vehicular Networks Using Dynam
 date: 2026-06-17
 tags: ["Federated Learning", "Hierarchical FL", "Client Selection", "Anomaly Detection"]
 categories: ["Paper Review"]
-series: ["Hierarchical Federated Learning"]
+series: ["Federated Learning Applications"]
 math: true
 summary: "This work combines reliability-score-based dynamic client selection with cosine-similarity-based anomalous update detection in cluster-based vehicular HFL, aiming for secure training even when malicious vehicles are present."
 ---

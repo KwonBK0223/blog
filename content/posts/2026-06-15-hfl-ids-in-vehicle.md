@@ -3,7 +3,7 @@ title: "Hierarchical Federated Learning-Based Intrusion Detection for In-Vehicle
 date: 2026-06-15
 tags: ["Federated Learning", "Hierarchical FL", "Intrusion Detection", "Vehicular Networks"]
 categories: ["Paper Review"]
-series: ["Hierarchical Federated Learning"]
+series: ["Federated Learning Applications"]
 math: true
 summary: "차량 내 네트워크(CAN) 침입탐지에 계층형 연합학습(HFL)을 처음 적용한 논문으로, 다중 edge aggregator를 두어 단일 실패 지점을 완화하고 확장성을 개선한다."
 ---
