@@ -17,7 +17,7 @@ params:
   env: production
   description: "AI 논문 리뷰 블로그"
   defaultTheme: auto
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
